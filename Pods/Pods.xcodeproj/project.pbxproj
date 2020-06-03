@@ -1,0 +1,1348 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		099C6D69BC1EF5F0B6A4B46D820F6A9D /* GPXAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936EE6B87BCFECD2C56D4A37CB1AB0C3 /* GPXAuthor.swift */; };
+		09E384876EF6B4429D5F842FD0AEB6D2 /* MapCacheConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0087F092033B6893F6AEC8EADCFEA73 /* MapCacheConfig.swift */; };
+		0A913D53740CA1F21A2A4BA1B3F6EAFD /* GPXRoutePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47878A5A70DB8FCAEC7F348A53E1B61 /* GPXRoutePoint.swift */; };
+		0F4DA559092D4C2B144DCB33B92CEC68 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47619FD24644DB0AE96E3D8C6A45D236 /* ReplaceMe.swift */; };
+		13791F91C39F408FDD0DC652B1D7CADE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09B0E7E80D881072DB518C322C620DCB /* UIKit.framework */; };
+		1663A9527B6D3C34A3A9C40B6C6B97E3 /* TileCoords.swift in Sources */ = {isa = PBXBuildFile; fileRef = 216E483BC3C34C8FF0F8F1033E3158E7 /* TileCoords.swift */; };
+		17A2706D3466A9BAC139A7B984247F2F /* TileCoordsRegion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DB6C2443B6871538D55A922865B45D /* TileCoordsRegion.swift */; };
+		1B4F048FF9AAF1741501A7E0ABDFB7D8 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5618810E26374AB0477FFB0209B71C4 /* MapKit.framework */; };
+		1D35F909F90E1465EFD24429A05A6CE8 /* DateTimeParsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB8F055FBA2014F82FB1BA8EA0049C /* DateTimeParsers.swift */; };
+		1E8E6A316A70E09AA0AE068C4052FA79 /* GPXRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9FB98D35365E4173F4815E7429E246 /* GPXRoot.swift */; };
+		212FC03237B03A9FB986CEDB67E81DA4 /* URL+DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C55C3E328127A27ED7BD8137526C44 /* URL+DiskCache.swift */; };
+		22FF6DEC5CF90222B2D299A297C3FB89 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C88210CE8E7FCAB8640FC827745208 /* Foundation.framework */; };
+		245F1C280C96E219A394F34A549812B6 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC6A430F8C6300CE5475011D1C863EB0 /* Log.swift */; };
+		262D20D5AAA59F77AF61EDC84409E123 /* GPXBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE324CCD3B9002471255E8D470D6B0EE /* GPXBounds.swift */; };
+		26F3D8E9EB1A11ABD5069EA272BF65BB /* GPXEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CC4AA45BCEB5403634FC3564D0E88 /* GPXEmail.swift */; };
+		27FE38F0F44FBBA1286CBE21FF533D70 /* NSMutableString+XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF553C360589004C18A18771B593498 /* NSMutableString+XML.swift */; };
+		291D8D068B57BA580A372D8F1BEECA31 /* GPXTrackSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D69EBC052F23887C45C8611AFCF615 /* GPXTrackSegment.swift */; };
+		29FF8240E736EF4B83F25CE89F5C83A4 /* GPXParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C61E9A31E332B69CD6A023125B3305 /* GPXParser.swift */; };
+		2B95E69240AE1C4B707285B98D04C3F1 /* GPXWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC92A41B788404919B7D44D048C012B /* GPXWaypoint.swift */; };
+		2E6A361920A4E45D7BC804CAAF60629F /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C9B21AA6CC4632467D82ED4E230F0 /* Converters.swift */; };
+		334C107F77D02EAE3FAEE75027642846 /* GPXPointSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054371F4AA2F8DDEC36A9518ABAAAC21 /* GPXPointSegment.swift */; };
+		366641B6A8116DD407905F69FDFD0E30 /* GPXError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF0BCBAA903865F863056FE64712ED /* GPXError.swift */; };
+		3B80E04855F0A3FACBD1974A8A25D74C /* MKTileOverlayPath+MapCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A494B70F902FCED58F3816DED28E85CC /* MKTileOverlayPath+MapCache.swift */; };
+		3B9DD8E0581146ED0D56D013DBDF050C /* MKMapView+MapCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = A13FF926304D586949F1C90F7A88E127 /* MKMapView+MapCache.swift */; };
+		3D1D5D02E1436725A16C0DC24BDA8478 /* Pods-CleanUp-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C3902D97503062BCB5B13E3E34850DAE /* Pods-CleanUp-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		404F1BF804879BBAE48047632FA123D9 /* Pods-CleanUp-Watch Extension-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C99C54E524262917B114A1A71EB2B30B /* Pods-CleanUp-Watch Extension-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48549F12FAE4767F7A80B7BED4F95627 /* GPXRoot.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF9FB98D35365E4173F4815E7429E246 /* GPXRoot.swift */; };
+		48E4B2E6B34EF597BE4D5765E2DC4D20 /* GPXCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2EDB89AB65652A61110BFAB68C7B9F /* GPXCompression.swift */; };
+		49E98DC1863D8A221168317252B0F7A3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 53C88210CE8E7FCAB8640FC827745208 /* Foundation.framework */; };
+		4C61307CE33BB9456D8A930B2BE17544 /* GPXRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D740211DB325070478396D572323CEB2 /* GPXRoute.swift */; };
+		4D450D3E6ACEC24C83211B1803A45014 /* CoreGPX-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 602C6D926D241F9D593F19B399B7C580 /* CoreGPX-watchOS-dummy.m */; };
+		4D765B603EA6B4F813C4BBB4610F4FC4 /* GPXBounds.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE324CCD3B9002471255E8D470D6B0EE /* GPXBounds.swift */; };
+		4F74A06199C101D4503A28E707BBDE71 /* Pods-CleanUp-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DFA227C8EB8DCF6CE6661E8CFD7D8C5E /* Pods-CleanUp-dummy.m */; };
+		554B1B922F5400AA99A6300C161F2252 /* TileRangeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FB3E0143CB0D0900FB7A673C5C8B687 /* TileRangeIterator.swift */; };
+		5CAA71A601AA0977B9A5E7F5358E6C00 /* GPXWaypoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFC92A41B788404919B7D44D048C012B /* GPXWaypoint.swift */; };
+		5E2D81508D8D80DB99F3A8A244165F00 /* CachedTileOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2145D0D646FFEBB13A77A81091F7CDC4 /* CachedTileOverlay.swift */; };
+		5E93AAB46A6E5EC2154654DD326034AD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E97FC270E4B8C36C8785FAB7B59D60 /* Foundation.framework */; };
+		614C683D2065A67DCEE0ABECFFD326E9 /* GPXTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B4E22CBB2BAE742E423EBCFFB224A5 /* GPXTrack.swift */; };
+		61712DB9A3C9B0404788DEF0CDFEC6C2 /* GPXTrackSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D69EBC052F23887C45C8611AFCF615 /* GPXTrackSegment.swift */; };
+		63ECD307D351F4CFD8B9C27E6568E134 /* GPXCopyright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D19B700FF54EA297297846B6419DEA9 /* GPXCopyright.swift */; };
+		675F5E76BE806CD8B872C3E72467F023 /* GPXPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721EFE7231628F3D3765B3F131B4262 /* GPXPerson.swift */; };
+		683A76B9A6E730F8C15ED3B96A8686C2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E97FC270E4B8C36C8785FAB7B59D60 /* Foundation.framework */; };
+		70F8A650FA8E5E76DCBB2867D2AD0C29 /* GPXCopyright.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D19B700FF54EA297297846B6419DEA9 /* GPXCopyright.swift */; };
+		7385A7A9C539517DFB0F12F2B3547E75 /* GPXFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF82C92E8F20BC49A7605B07B1CA744 /* GPXFix.swift */; };
+		745E764D87694218C63E532135E952A5 /* GPXExtensionsElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2EA02E6A3A04DD53E6749FADF0406 /* GPXExtensionsElement.swift */; };
+		7D353EA3E3E4221419EDB623C9518A73 /* MapCacheProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1A98F1B7A33D4F71BEE16D733573204 /* MapCacheProtocol.swift */; };
+		7F93B344D032932509A2F80F22E3441E /* ZoomRangeIterator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0250A00AAAD10565739A00ABEBC4FA63 /* ZoomRangeIterator.swift */; };
+		8250B4D215F98E7CA8131942F41DA497 /* NSMutableString+XML.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF553C360589004C18A18771B593498 /* NSMutableString+XML.swift */; };
+		878F0474D84D790D1268F9AC54B51E53 /* MapCache-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D8F286DA01B2D53CD382C9E781FE2E9 /* MapCache-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B2EB93B33A61F340D5D0F38198887E7 /* GPXRoute.swift in Sources */ = {isa = PBXBuildFile; fileRef = D740211DB325070478396D572323CEB2 /* GPXRoute.swift */; };
+		8EC3E13BC610182C4053E2606068DCBB /* GPXLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C889686C9B11BF63C34EC5EA6E72A27A /* GPXLink.swift */; };
+		8F8461C8DB0F8DCBDF0BF57DF945F17E /* GPXExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1FFE2B2A5B988AADBA7B1C770A9C5 /* GPXExtensions.swift */; };
+		93199F0F4FB898944E90FBE2D646A8B8 /* Converters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554C9B21AA6CC4632467D82ED4E230F0 /* Converters.swift */; };
+		95389DE0EFA4E02CC683ECF5231D3107 /* DateTimeParsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AAB8F055FBA2014F82FB1BA8EA0049C /* DateTimeParsers.swift */; };
+		95AD4B7017BBD30A7408B35A054D758C /* DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 956A1438C084AFBFC6D297F354B4A2B7 /* DiskCache.swift */; };
+		99F98F80935F5327E3A602AE4538B989 /* FileManager+DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 580269984E2836B4CCB72CF4A311B995 /* FileManager+DiskCache.swift */; };
+		9A11B3B82D0AA316137499D8F6B052AE /* GPXEmail.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8CC4AA45BCEB5403634FC3564D0E88 /* GPXEmail.swift */; };
+		9A3B79DD4BF22A27FF054545D83F6C88 /* GPXMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAEACED7C53C6243517D7951F3A2160 /* GPXMetadata.swift */; };
+		9A81DC9244629C91DB13BB7C7997249C /* GPXExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B1FFE2B2A5B988AADBA7B1C770A9C5 /* GPXExtensions.swift */; };
+		9AE91998A71CA56A71216BBC5EBD313C /* GPXExtensionsElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5A2EA02E6A3A04DD53E6749FADF0406 /* GPXExtensionsElement.swift */; };
+		9FDACF3C1FB1F0C36E5E46B93CB36A40 /* GPXParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C61E9A31E332B69CD6A023125B3305 /* GPXParser.swift */; };
+		A55433663AE83E51EB96C54950361247 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37E97FC270E4B8C36C8785FAB7B59D60 /* Foundation.framework */; };
+		AF2651F13B56F5D2916FF5A569D357EF /* TileRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DCE9AF9C6D0A0E716657F4F2C962636 /* TileRange.swift */; };
+		B29A9883DA64ED9238F7974280D61B3C /* GPXError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCAF0BCBAA903865F863056FE64712ED /* GPXError.swift */; };
+		B4672BB887DAAC717AC718283CEC8590 /* MD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6FE54B8A1F073AD621E162E2B69C4ABB /* MD5.swift */; };
+		B6526A95C424F5A65C08CACC002D8A37 /* GPXRoutePoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = D47878A5A70DB8FCAEC7F348A53E1B61 /* GPXRoutePoint.swift */; };
+		B815917FC803F08BFC9C4E49CFD91224 /* GPXRawElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3058D76D6A3B98DEF6399163076D2A /* GPXRawElement.swift */; };
+		BC8258058992A57CCAC74F1EF09850F7 /* ZoomRange.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83533BB9DC9BA1C996C3163B99DB3982 /* ZoomRange.swift */; };
+		C2971267EB0A45985E7145B8358B9227 /* Pods-CleanUp-Watch Extension-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CADAAC479613AEE30A740E7CD3B568A6 /* Pods-CleanUp-Watch Extension-dummy.m */; };
+		C7E35C15B68E52C31ACCAAF2A95D3A70 /* GPXLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = C889686C9B11BF63C34EC5EA6E72A27A /* GPXLink.swift */; };
+		C84EA6ED9CA6ED96237F2F9CE67E3942 /* GPXCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C2EDB89AB65652A61110BFAB68C7B9F /* GPXCompression.swift */; };
+		CA0CEB8B8BF7770D87A3D2047E6279D8 /* RegionDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516002677B5C6DB67D34227809B66412 /* RegionDownloader.swift */; };
+		CFCF69C6A6F289DF7DF3840784B45840 /* GPXRawElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3058D76D6A3B98DEF6399163076D2A /* GPXRawElement.swift */; };
+		D46DD9634D6A3632A7056251B6AE22B9 /* GPXTrackPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB615F7037F74EFEB054A3344E3F373 /* GPXTrackPoint.swift */; };
+		D5763373293E932C5E39E0ECDD7817E2 /* MapCache-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 78FD4AC23EF31E30F60AAB4F9E458B41 /* MapCache-dummy.m */; };
+		D7374E60D9D1E4EE7994DB7290E0A9BA /* GPXTrack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B4E22CBB2BAE742E423EBCFFB224A5 /* GPXTrack.swift */; };
+		D886383583C44F6F1B41C570CCF29314 /* CoreGPX-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 595ADD2C40C19ADBD83EE32891DA8A8A /* CoreGPX-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBBACAF78429235067AF07A1507C7878 /* GPXTrackPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB615F7037F74EFEB054A3344E3F373 /* GPXTrackPoint.swift */; };
+		DCC763B0248792D700C75E42 /* CleanUp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DCC763AE248792D700C75E42 /* CleanUp.xcdatamodeld */; };
+		DF1A8E06C319DAD140782AE994B77BF4 /* GPXMetadata.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEAEACED7C53C6243517D7951F3A2160 /* GPXMetadata.swift */; };
+		E2D7CA756695D8D6B430C17D9831B792 /* MapCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80A0CD997565F10088D99969165A3603 /* MapCache.swift */; };
+		E4DC9E1BAA8E22B38734C9A3FEA6D8A0 /* GPXElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BC65B0E38706187BE846397C83832 /* GPXElement.swift */; };
+		E7D51833ABCFA88043E1024B4710D4C4 /* GPXPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B799CA4714E4ADCD56BF63A08C2B8 /* GPXPoint.swift */; };
+		E96095BC9712053C48D1A0A591F779FC /* GPXPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D6B799CA4714E4ADCD56BF63A08C2B8 /* GPXPoint.swift */; };
+		EB1EA9E9C1527976254F7754F283DC37 /* CoreGPX-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8B08CBEBAC34B8242140D31BB2014BF0 /* CoreGPX-iOS-dummy.m */; };
+		EDD1E519720F0A6116A01DD5374AA728 /* GPXElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A1BC65B0E38706187BE846397C83832 /* GPXElement.swift */; };
+		EE13CCD92558CD76C26D1382426477AB /* GPXPerson.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1721EFE7231628F3D3765B3F131B4262 /* GPXPerson.swift */; };
+		F0A6FED3E288C641B9CB85D6853C2CCE /* GPXFix.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFF82C92E8F20BC49A7605B07B1CA744 /* GPXFix.swift */; };
+		F171B4327F4A4E4DF104E45DCE9107C9 /* GPXAuthor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 936EE6B87BCFECD2C56D4A37CB1AB0C3 /* GPXAuthor.swift */; };
+		F45DBF7A6DCFF011CE4B7B0AE27B4C50 /* CoreGPX-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3ECBCB9FDE96BC87158121BD4E43C838 /* CoreGPX-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F6262510200AB990D82DA37744C5C284 /* RegionDownloaderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C1763D475854AB8CA19D0F52AD8D0BB /* RegionDownloaderDelegate.swift */; };
+		F6B4CDE78BCDAC50CC342741CE20500A /* String+DiskCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6521E91E78D8083241C080C328D3F510 /* String+DiskCache.swift */; };
+		FF2104F6BEB994B634C292136B1C8CE0 /* GPXPointSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 054371F4AA2F8DDEC36A9518ABAAAC21 /* GPXPointSegment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		12D460BE59342D5B3D55FEFAF351ED90 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D26394E74B3D99783EE42885C06E286A;
+			remoteInfo = MapCache;
+		};
+		AE1B0575C4193A7114B30BF5CDC1427A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3F3F1AB09D6852392F8574A567B748F3;
+			remoteInfo = "CoreGPX-iOS";
+		};
+		FA2A4435E0BEB1E12F9FC663851A750A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 52F3F24B8D3936CDB41CBC3C1FED4E8C;
+			remoteInfo = "CoreGPX-watchOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0250A00AAAD10565739A00ABEBC4FA63 /* ZoomRangeIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomRangeIterator.swift; path = MapCache/Classes/ZoomRangeIterator.swift; sourceTree = "<group>"; };
+		054371F4AA2F8DDEC36A9518ABAAAC21 /* GPXPointSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXPointSegment.swift; path = Classes/GPXPointSegment.swift; sourceTree = "<group>"; };
+		09B0E7E80D881072DB518C322C620DCB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		0D44786039B6F85B1995081A859FA249 /* MapCache.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MapCache.xcconfig; sourceTree = "<group>"; };
+		115747451E3769DDB80BB07379405375 /* MapCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MapCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		116B7E7BE9ECB8F9D4A0844600A14D44 /* Pods-CleanUp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanUp.debug.xcconfig"; sourceTree = "<group>"; };
+		1721EFE7231628F3D3765B3F131B4262 /* GPXPerson.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXPerson.swift; path = Classes/GPXPerson.swift; sourceTree = "<group>"; };
+		1C2EDB89AB65652A61110BFAB68C7B9F /* GPXCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXCompression.swift; path = Classes/GPXCompression.swift; sourceTree = "<group>"; };
+		1D6B799CA4714E4ADCD56BF63A08C2B8 /* GPXPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXPoint.swift; path = Classes/GPXPoint.swift; sourceTree = "<group>"; };
+		1F0C27AE3AD3C3041015C7D295B79F6E /* Pods-CleanUp-Watch Extension-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanUp-Watch Extension-frameworks.sh"; sourceTree = "<group>"; };
+		210037763EBAC64058D51B023A940BFB /* Pods-CleanUp.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanUp.modulemap"; sourceTree = "<group>"; };
+		2145D0D646FFEBB13A77A81091F7CDC4 /* CachedTileOverlay.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedTileOverlay.swift; path = MapCache/Classes/CachedTileOverlay.swift; sourceTree = "<group>"; };
+		216E483BC3C34C8FF0F8F1033E3158E7 /* TileCoords.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TileCoords.swift; path = MapCache/Classes/TileCoords.swift; sourceTree = "<group>"; };
+		2348B90CF12129E13C6A4E8921D72DF7 /* Pods-CleanUp-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanUp-Info.plist"; sourceTree = "<group>"; };
+		2A1BC65B0E38706187BE846397C83832 /* GPXElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXElement.swift; path = Classes/GPXElement.swift; sourceTree = "<group>"; };
+		2D19B700FF54EA297297846B6419DEA9 /* GPXCopyright.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXCopyright.swift; path = Classes/GPXCopyright.swift; sourceTree = "<group>"; };
+		35892F63417D2C78EDC52407D58CC96B /* Pods-CleanUp-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanUp-acknowledgements.plist"; sourceTree = "<group>"; };
+		37E97FC270E4B8C36C8785FAB7B59D60 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		38337D862879C8A3B39FA2EBEAC0AA4B /* Pods-CleanUp-Watch Extension.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CleanUp-Watch Extension.modulemap"; sourceTree = "<group>"; };
+		3CB615F7037F74EFEB054A3344E3F373 /* GPXTrackPoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXTrackPoint.swift; path = Classes/GPXTrackPoint.swift; sourceTree = "<group>"; };
+		3D8F286DA01B2D53CD382C9E781FE2E9 /* MapCache-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapCache-umbrella.h"; sourceTree = "<group>"; };
+		3E3058D76D6A3B98DEF6399163076D2A /* GPXRawElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXRawElement.swift; path = Classes/GPXRawElement.swift; sourceTree = "<group>"; };
+		3ECBCB9FDE96BC87158121BD4E43C838 /* CoreGPX-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreGPX-iOS-umbrella.h"; sourceTree = "<group>"; };
+		42C61E9A31E332B69CD6A023125B3305 /* GPXParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXParser.swift; path = Classes/GPXParser.swift; sourceTree = "<group>"; };
+		434E65F1F3AA6AC18A81080558FBF789 /* Pods-CleanUp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanUp.release.xcconfig"; sourceTree = "<group>"; };
+		44B4E22CBB2BAE742E423EBCFFB224A5 /* GPXTrack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXTrack.swift; path = Classes/GPXTrack.swift; sourceTree = "<group>"; };
+		4569433ABFF8D059EA11B0EB69DDEC99 /* CoreGPX-iOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "CoreGPX-iOS.xcconfig"; sourceTree = "<group>"; };
+		45D69EBC052F23887C45C8611AFCF615 /* GPXTrackSegment.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXTrackSegment.swift; path = Classes/GPXTrackSegment.swift; sourceTree = "<group>"; };
+		47619FD24644DB0AE96E3D8C6A45D236 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MapCache/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		4AAB8F055FBA2014F82FB1BA8EA0049C /* DateTimeParsers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DateTimeParsers.swift; path = Classes/DateTimeParsers.swift; sourceTree = "<group>"; };
+		4AF553C360589004C18A18771B593498 /* NSMutableString+XML.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSMutableString+XML.swift"; path = "Classes/NSMutableString+XML.swift"; sourceTree = "<group>"; };
+		516002677B5C6DB67D34227809B66412 /* RegionDownloader.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegionDownloader.swift; path = MapCache/Classes/RegionDownloader.swift; sourceTree = "<group>"; };
+		53C88210CE8E7FCAB8640FC827745208 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		554C9B21AA6CC4632467D82ED4E230F0 /* Converters.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Converters.swift; path = Classes/Converters.swift; sourceTree = "<group>"; };
+		580269984E2836B4CCB72CF4A311B995 /* FileManager+DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "FileManager+DiskCache.swift"; path = "MapCache/Classes/DiskCache/FileManager+DiskCache.swift"; sourceTree = "<group>"; };
+		595ADD2C40C19ADBD83EE32891DA8A8A /* CoreGPX-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoreGPX-watchOS-umbrella.h"; path = "../CoreGPX-watchOS/CoreGPX-watchOS-umbrella.h"; sourceTree = "<group>"; };
+		5C16440F693BED999C5F7C7D73F5C2F1 /* Pods_CleanUp_Watch_Extension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanUp_Watch_Extension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5FB3E0143CB0D0900FB7A673C5C8B687 /* TileRangeIterator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TileRangeIterator.swift; path = MapCache/Classes/TileRangeIterator.swift; sourceTree = "<group>"; };
+		602C6D926D241F9D593F19B399B7C580 /* CoreGPX-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CoreGPX-watchOS-dummy.m"; path = "../CoreGPX-watchOS/CoreGPX-watchOS-dummy.m"; sourceTree = "<group>"; };
+		6521E91E78D8083241C080C328D3F510 /* String+DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+DiskCache.swift"; path = "MapCache/Classes/DiskCache/String+DiskCache.swift"; sourceTree = "<group>"; };
+		6D058E465FD721E736B9F592369C37A9 /* CoreGPX-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CoreGPX-iOS-Info.plist"; sourceTree = "<group>"; };
+		6FE54B8A1F073AD621E162E2B69C4ABB /* MD5.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MD5.swift; path = MapCache/Classes/DiskCache/MD5.swift; sourceTree = "<group>"; };
+		7154314C55E326A5A2D0DE8AD107DC30 /* Pods_CleanUp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CleanUp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		73E097AB8D67061734EC7A63ABBF2E20 /* CoreGPX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGPX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78FD4AC23EF31E30F60AAB4F9E458B41 /* MapCache-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MapCache-dummy.m"; sourceTree = "<group>"; };
+		7E071BF8E35513B8EEE9E46561F8F0F5 /* Pods-CleanUp-Watch Extension-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanUp-Watch Extension-acknowledgements.markdown"; sourceTree = "<group>"; };
+		80A0CD997565F10088D99969165A3603 /* MapCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapCache.swift; path = MapCache/Classes/MapCache.swift; sourceTree = "<group>"; };
+		83533BB9DC9BA1C996C3163B99DB3982 /* ZoomRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZoomRange.swift; path = MapCache/Classes/ZoomRange.swift; sourceTree = "<group>"; };
+		844BF34D057131E797808256C460B6A6 /* MapCache-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MapCache-Info.plist"; sourceTree = "<group>"; };
+		8B08CBEBAC34B8242140D31BB2014BF0 /* CoreGPX-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CoreGPX-iOS-dummy.m"; sourceTree = "<group>"; };
+		8D0F99A68A9C884230E31EEAA9578C5A /* CoreGPX-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CoreGPX-iOS-prefix.pch"; sourceTree = "<group>"; };
+		8DCE9AF9C6D0A0E716657F4F2C962636 /* TileRange.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TileRange.swift; path = MapCache/Classes/TileRange.swift; sourceTree = "<group>"; };
+		936EE6B87BCFECD2C56D4A37CB1AB0C3 /* GPXAuthor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXAuthor.swift; path = Classes/GPXAuthor.swift; sourceTree = "<group>"; };
+		956A1438C084AFBFC6D297F354B4A2B7 /* DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DiskCache.swift; path = MapCache/Classes/DiskCache/DiskCache.swift; sourceTree = "<group>"; };
+		95DB6C2443B6871538D55A922865B45D /* TileCoordsRegion.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TileCoordsRegion.swift; path = MapCache/Classes/TileCoordsRegion.swift; sourceTree = "<group>"; };
+		97AD585435A83D67BF0B87095AF90056 /* MapCache-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MapCache-prefix.pch"; sourceTree = "<group>"; };
+		9A99DEC3931BAF7AFB163C2990B75E0B /* MapCache.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MapCache.modulemap; sourceTree = "<group>"; };
+		9C1763D475854AB8CA19D0F52AD8D0BB /* RegionDownloaderDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RegionDownloaderDelegate.swift; path = MapCache/Classes/RegionDownloaderDelegate.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A13FF926304D586949F1C90F7A88E127 /* MKMapView+MapCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MKMapView+MapCache.swift"; path = "MapCache/Classes/MKMapView+MapCache.swift"; sourceTree = "<group>"; };
+		A494B70F902FCED58F3816DED28E85CC /* MKTileOverlayPath+MapCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MKTileOverlayPath+MapCache.swift"; path = "MapCache/Classes/MKTileOverlayPath+MapCache.swift"; sourceTree = "<group>"; };
+		A69E0E3B6B7A79B861D5FAB1CFAFC705 /* CoreGPX-watchOS.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "CoreGPX-watchOS.xcconfig"; path = "../CoreGPX-watchOS/CoreGPX-watchOS.xcconfig"; sourceTree = "<group>"; };
+		A763D1A57D229217AF72ABD82635152A /* Pods-CleanUp-Watch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanUp-Watch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		AC6A430F8C6300CE5475011D1C863EB0 /* Log.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Log.swift; path = MapCache/Classes/Log.swift; sourceTree = "<group>"; };
+		B284947E80D1520AFDA3A6B644C8585A /* Pods-CleanUp-Watch Extension-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanUp-Watch Extension-acknowledgements.plist"; sourceTree = "<group>"; };
+		B5A2EA02E6A3A04DD53E6749FADF0406 /* GPXExtensionsElement.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXExtensionsElement.swift; path = Classes/GPXExtensionsElement.swift; sourceTree = "<group>"; };
+		B728F517EC85A9352D1D9CD47C8C730A /* CoreGPX-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "CoreGPX-iOS.modulemap"; sourceTree = "<group>"; };
+		BC1225629FB377408DE88F6CFFA655B4 /* Pods-CleanUp-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CleanUp-acknowledgements.markdown"; sourceTree = "<group>"; };
+		BE324CCD3B9002471255E8D470D6B0EE /* GPXBounds.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXBounds.swift; path = Classes/GPXBounds.swift; sourceTree = "<group>"; };
+		C1A98F1B7A33D4F71BEE16D733573204 /* MapCacheProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapCacheProtocol.swift; path = MapCache/Classes/MapCacheProtocol.swift; sourceTree = "<group>"; };
+		C24E70A7E88F5A83B297530114B1D02F /* CoreGPX-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "CoreGPX-watchOS.modulemap"; path = "../CoreGPX-watchOS/CoreGPX-watchOS.modulemap"; sourceTree = "<group>"; };
+		C3902D97503062BCB5B13E3E34850DAE /* Pods-CleanUp-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanUp-umbrella.h"; sourceTree = "<group>"; };
+		C5618810E26374AB0477FFB0209B71C4 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/MapKit.framework; sourceTree = DEVELOPER_DIR; };
+		C85C26F20499C45984E813A705C990FF /* CoreGPX-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "CoreGPX-watchOS-Info.plist"; path = "../CoreGPX-watchOS/CoreGPX-watchOS-Info.plist"; sourceTree = "<group>"; };
+		C889686C9B11BF63C34EC5EA6E72A27A /* GPXLink.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXLink.swift; path = Classes/GPXLink.swift; sourceTree = "<group>"; };
+		C99C54E524262917B114A1A71EB2B30B /* Pods-CleanUp-Watch Extension-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CleanUp-Watch Extension-umbrella.h"; sourceTree = "<group>"; };
+		CADAAC479613AEE30A740E7CD3B568A6 /* Pods-CleanUp-Watch Extension-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanUp-Watch Extension-dummy.m"; sourceTree = "<group>"; };
+		CEB2DCC0D44727805A35B5CE58868474 /* Pods-CleanUp-Watch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CleanUp-Watch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		CF8CC4AA45BCEB5403634FC3564D0E88 /* GPXEmail.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXEmail.swift; path = Classes/GPXEmail.swift; sourceTree = "<group>"; };
+		D47878A5A70DB8FCAEC7F348A53E1B61 /* GPXRoutePoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXRoutePoint.swift; path = Classes/GPXRoutePoint.swift; sourceTree = "<group>"; };
+		D740211DB325070478396D572323CEB2 /* GPXRoute.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXRoute.swift; path = Classes/GPXRoute.swift; sourceTree = "<group>"; };
+		DCC763AF248792D700C75E42 /* CleanUp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CleanUp.xcdatamodel; sourceTree = "<group>"; };
+		DEAEACED7C53C6243517D7951F3A2160 /* GPXMetadata.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXMetadata.swift; path = Classes/GPXMetadata.swift; sourceTree = "<group>"; };
+		DFA227C8EB8DCF6CE6661E8CFD7D8C5E /* Pods-CleanUp-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CleanUp-dummy.m"; sourceTree = "<group>"; };
+		DFF82C92E8F20BC49A7605B07B1CA744 /* GPXFix.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXFix.swift; path = Classes/GPXFix.swift; sourceTree = "<group>"; };
+		E1B1FFE2B2A5B988AADBA7B1C770A9C5 /* GPXExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXExtensions.swift; path = Classes/GPXExtensions.swift; sourceTree = "<group>"; };
+		E3C55C3E328127A27ED7BD8137526C44 /* URL+DiskCache.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URL+DiskCache.swift"; path = "MapCache/Classes/DiskCache/URL+DiskCache.swift"; sourceTree = "<group>"; };
+		E8DA66D422BB26B37237566AB609B153 /* Pods-CleanUp-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CleanUp-frameworks.sh"; sourceTree = "<group>"; };
+		E9C30547DF968C73398DDA33A4BBDFB3 /* CoreGPX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = CoreGPX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EF9FB98D35365E4173F4815E7429E246 /* GPXRoot.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXRoot.swift; path = Classes/GPXRoot.swift; sourceTree = "<group>"; };
+		F0087F092033B6893F6AEC8EADCFEA73 /* MapCacheConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MapCacheConfig.swift; path = MapCache/Classes/MapCacheConfig.swift; sourceTree = "<group>"; };
+		F406D0ED9E1AE6DB7C8EAA3791DCC5F2 /* Pods-CleanUp-Watch Extension-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CleanUp-Watch Extension-Info.plist"; sourceTree = "<group>"; };
+		FCAF0BCBAA903865F863056FE64712ED /* GPXError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXError.swift; path = Classes/GPXError.swift; sourceTree = "<group>"; };
+		FDDEF3BF4822F773114FCF3DC42A595C /* CoreGPX-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CoreGPX-watchOS-prefix.pch"; path = "../CoreGPX-watchOS/CoreGPX-watchOS-prefix.pch"; sourceTree = "<group>"; };
+		FFC92A41B788404919B7D44D048C012B /* GPXWaypoint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GPXWaypoint.swift; path = Classes/GPXWaypoint.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		07553230475381294D5C8D5D64D62AC8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22FF6DEC5CF90222B2D299A297C3FB89 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FD841B0289056364E0C07587208F856 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49E98DC1863D8A221168317252B0F7A3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2175E110B6C829CE3CEE0B995EE800B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				683A76B9A6E730F8C15ED3B96A8686C2 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3EA64315E5EB0CD69C8F937119DDBC02 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A55433663AE83E51EB96C54950361247 /* Foundation.framework in Frameworks */,
+				1B4F048FF9AAF1741501A7E0ABDFB7D8 /* MapKit.framework in Frameworks */,
+				13791F91C39F408FDD0DC652B1D7CADE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D893BF67F52532A7F3E06115A4A3FB47 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E93AAB46A6E5EC2154654DD326034AD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0109C7F011B8285574D26D6AA8E91F66 /* MapCache */ = {
+			isa = PBXGroup;
+			children = (
+				2145D0D646FFEBB13A77A81091F7CDC4 /* CachedTileOverlay.swift */,
+				956A1438C084AFBFC6D297F354B4A2B7 /* DiskCache.swift */,
+				580269984E2836B4CCB72CF4A311B995 /* FileManager+DiskCache.swift */,
+				AC6A430F8C6300CE5475011D1C863EB0 /* Log.swift */,
+				80A0CD997565F10088D99969165A3603 /* MapCache.swift */,
+				F0087F092033B6893F6AEC8EADCFEA73 /* MapCacheConfig.swift */,
+				C1A98F1B7A33D4F71BEE16D733573204 /* MapCacheProtocol.swift */,
+				6FE54B8A1F073AD621E162E2B69C4ABB /* MD5.swift */,
+				A13FF926304D586949F1C90F7A88E127 /* MKMapView+MapCache.swift */,
+				A494B70F902FCED58F3816DED28E85CC /* MKTileOverlayPath+MapCache.swift */,
+				516002677B5C6DB67D34227809B66412 /* RegionDownloader.swift */,
+				9C1763D475854AB8CA19D0F52AD8D0BB /* RegionDownloaderDelegate.swift */,
+				47619FD24644DB0AE96E3D8C6A45D236 /* ReplaceMe.swift */,
+				6521E91E78D8083241C080C328D3F510 /* String+DiskCache.swift */,
+				216E483BC3C34C8FF0F8F1033E3158E7 /* TileCoords.swift */,
+				95DB6C2443B6871538D55A922865B45D /* TileCoordsRegion.swift */,
+				8DCE9AF9C6D0A0E716657F4F2C962636 /* TileRange.swift */,
+				5FB3E0143CB0D0900FB7A673C5C8B687 /* TileRangeIterator.swift */,
+				E3C55C3E328127A27ED7BD8137526C44 /* URL+DiskCache.swift */,
+				83533BB9DC9BA1C996C3163B99DB3982 /* ZoomRange.swift */,
+				0250A00AAAD10565739A00ABEBC4FA63 /* ZoomRangeIterator.swift */,
+				4E3258B07CDFEC8D006F835F42396759 /* Support Files */,
+			);
+			path = MapCache;
+			sourceTree = "<group>";
+		};
+		0EA5CEDF8F76786D74A01CBBACF57D5E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B728F517EC85A9352D1D9CD47C8C730A /* CoreGPX-iOS.modulemap */,
+				4569433ABFF8D059EA11B0EB69DDEC99 /* CoreGPX-iOS.xcconfig */,
+				8B08CBEBAC34B8242140D31BB2014BF0 /* CoreGPX-iOS-dummy.m */,
+				6D058E465FD721E736B9F592369C37A9 /* CoreGPX-iOS-Info.plist */,
+				8D0F99A68A9C884230E31EEAA9578C5A /* CoreGPX-iOS-prefix.pch */,
+				3ECBCB9FDE96BC87158121BD4E43C838 /* CoreGPX-iOS-umbrella.h */,
+				C24E70A7E88F5A83B297530114B1D02F /* CoreGPX-watchOS.modulemap */,
+				A69E0E3B6B7A79B861D5FAB1CFAFC705 /* CoreGPX-watchOS.xcconfig */,
+				602C6D926D241F9D593F19B399B7C580 /* CoreGPX-watchOS-dummy.m */,
+				C85C26F20499C45984E813A705C990FF /* CoreGPX-watchOS-Info.plist */,
+				FDDEF3BF4822F773114FCF3DC42A595C /* CoreGPX-watchOS-prefix.pch */,
+				595ADD2C40C19ADBD83EE32891DA8A8A /* CoreGPX-watchOS-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CoreGPX-iOS";
+			sourceTree = "<group>";
+		};
+		14DA4FE42A8DEA9CB90F3F3ED4EF6112 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				396B897FC20ED8AFF973DC294917474B /* CoreGPX */,
+				0109C7F011B8285574D26D6AA8E91F66 /* MapCache */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		25B553403BBD4EEF4B3150C900C0B8AB /* watchOS */ = {
+			isa = PBXGroup;
+			children = (
+				53C88210CE8E7FCAB8640FC827745208 /* Foundation.framework */,
+			);
+			name = watchOS;
+			sourceTree = "<group>";
+		};
+		396B897FC20ED8AFF973DC294917474B /* CoreGPX */ = {
+			isa = PBXGroup;
+			children = (
+				554C9B21AA6CC4632467D82ED4E230F0 /* Converters.swift */,
+				4AAB8F055FBA2014F82FB1BA8EA0049C /* DateTimeParsers.swift */,
+				936EE6B87BCFECD2C56D4A37CB1AB0C3 /* GPXAuthor.swift */,
+				BE324CCD3B9002471255E8D470D6B0EE /* GPXBounds.swift */,
+				1C2EDB89AB65652A61110BFAB68C7B9F /* GPXCompression.swift */,
+				2D19B700FF54EA297297846B6419DEA9 /* GPXCopyright.swift */,
+				2A1BC65B0E38706187BE846397C83832 /* GPXElement.swift */,
+				CF8CC4AA45BCEB5403634FC3564D0E88 /* GPXEmail.swift */,
+				FCAF0BCBAA903865F863056FE64712ED /* GPXError.swift */,
+				E1B1FFE2B2A5B988AADBA7B1C770A9C5 /* GPXExtensions.swift */,
+				B5A2EA02E6A3A04DD53E6749FADF0406 /* GPXExtensionsElement.swift */,
+				DFF82C92E8F20BC49A7605B07B1CA744 /* GPXFix.swift */,
+				C889686C9B11BF63C34EC5EA6E72A27A /* GPXLink.swift */,
+				DEAEACED7C53C6243517D7951F3A2160 /* GPXMetadata.swift */,
+				42C61E9A31E332B69CD6A023125B3305 /* GPXParser.swift */,
+				1721EFE7231628F3D3765B3F131B4262 /* GPXPerson.swift */,
+				1D6B799CA4714E4ADCD56BF63A08C2B8 /* GPXPoint.swift */,
+				054371F4AA2F8DDEC36A9518ABAAAC21 /* GPXPointSegment.swift */,
+				3E3058D76D6A3B98DEF6399163076D2A /* GPXRawElement.swift */,
+				EF9FB98D35365E4173F4815E7429E246 /* GPXRoot.swift */,
+				D740211DB325070478396D572323CEB2 /* GPXRoute.swift */,
+				D47878A5A70DB8FCAEC7F348A53E1B61 /* GPXRoutePoint.swift */,
+				44B4E22CBB2BAE742E423EBCFFB224A5 /* GPXTrack.swift */,
+				3CB615F7037F74EFEB054A3344E3F373 /* GPXTrackPoint.swift */,
+				45D69EBC052F23887C45C8611AFCF615 /* GPXTrackSegment.swift */,
+				FFC92A41B788404919B7D44D048C012B /* GPXWaypoint.swift */,
+				4AF553C360589004C18A18771B593498 /* NSMutableString+XML.swift */,
+				0EA5CEDF8F76786D74A01CBBACF57D5E /* Support Files */,
+			);
+			path = CoreGPX;
+			sourceTree = "<group>";
+		};
+		4E3258B07CDFEC8D006F835F42396759 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A99DEC3931BAF7AFB163C2990B75E0B /* MapCache.modulemap */,
+				0D44786039B6F85B1995081A859FA249 /* MapCache.xcconfig */,
+				78FD4AC23EF31E30F60AAB4F9E458B41 /* MapCache-dummy.m */,
+				844BF34D057131E797808256C460B6A6 /* MapCache-Info.plist */,
+				97AD585435A83D67BF0B87095AF90056 /* MapCache-prefix.pch */,
+				3D8F286DA01B2D53CD382C9E781FE2E9 /* MapCache-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MapCache";
+			sourceTree = "<group>";
+		};
+		84830FBDF4734B88BE1421E325255033 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				37E97FC270E4B8C36C8785FAB7B59D60 /* Foundation.framework */,
+				C5618810E26374AB0477FFB0209B71C4 /* MapKit.framework */,
+				09B0E7E80D881072DB518C322C620DCB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		A10BA7391E64CE30F5E88AA366B355D7 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDEDEE51B9EFF53B66C0FEE9B78FBC41 /* Pods-CleanUp */,
+				F162F9F272E4BF5BA25EE55D92ADA91B /* Pods-CleanUp-Watch Extension */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BFC9A8986ED351F9B00BE7521FE1A3E8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84830FBDF4734B88BE1421E325255033 /* iOS */,
+				25B553403BBD4EEF4B3150C900C0B8AB /* watchOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCD7A084CD13CADADF8800D15D3240F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9C30547DF968C73398DDA33A4BBDFB3 /* CoreGPX.framework */,
+				73E097AB8D67061734EC7A63ABBF2E20 /* CoreGPX.framework */,
+				115747451E3769DDB80BB07379405375 /* MapCache.framework */,
+				7154314C55E326A5A2D0DE8AD107DC30 /* Pods_CleanUp.framework */,
+				5C16440F693BED999C5F7C7D73F5C2F1 /* Pods_CleanUp_Watch_Extension.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				DCC763AE248792D700C75E42 /* CleanUp.xcdatamodeld */,
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				BFC9A8986ED351F9B00BE7521FE1A3E8 /* Frameworks */,
+				14DA4FE42A8DEA9CB90F3F3ED4EF6112 /* Pods */,
+				CCD7A084CD13CADADF8800D15D3240F1 /* Products */,
+				A10BA7391E64CE30F5E88AA366B355D7 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		EDEDEE51B9EFF53B66C0FEE9B78FBC41 /* Pods-CleanUp */ = {
+			isa = PBXGroup;
+			children = (
+				210037763EBAC64058D51B023A940BFB /* Pods-CleanUp.modulemap */,
+				BC1225629FB377408DE88F6CFFA655B4 /* Pods-CleanUp-acknowledgements.markdown */,
+				35892F63417D2C78EDC52407D58CC96B /* Pods-CleanUp-acknowledgements.plist */,
+				DFA227C8EB8DCF6CE6661E8CFD7D8C5E /* Pods-CleanUp-dummy.m */,
+				E8DA66D422BB26B37237566AB609B153 /* Pods-CleanUp-frameworks.sh */,
+				2348B90CF12129E13C6A4E8921D72DF7 /* Pods-CleanUp-Info.plist */,
+				C3902D97503062BCB5B13E3E34850DAE /* Pods-CleanUp-umbrella.h */,
+				116B7E7BE9ECB8F9D4A0844600A14D44 /* Pods-CleanUp.debug.xcconfig */,
+				434E65F1F3AA6AC18A81080558FBF789 /* Pods-CleanUp.release.xcconfig */,
+			);
+			name = "Pods-CleanUp";
+			path = "Target Support Files/Pods-CleanUp";
+			sourceTree = "<group>";
+		};
+		F162F9F272E4BF5BA25EE55D92ADA91B /* Pods-CleanUp-Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				38337D862879C8A3B39FA2EBEAC0AA4B /* Pods-CleanUp-Watch Extension.modulemap */,
+				7E071BF8E35513B8EEE9E46561F8F0F5 /* Pods-CleanUp-Watch Extension-acknowledgements.markdown */,
+				B284947E80D1520AFDA3A6B644C8585A /* Pods-CleanUp-Watch Extension-acknowledgements.plist */,
+				CADAAC479613AEE30A740E7CD3B568A6 /* Pods-CleanUp-Watch Extension-dummy.m */,
+				1F0C27AE3AD3C3041015C7D295B79F6E /* Pods-CleanUp-Watch Extension-frameworks.sh */,
+				F406D0ED9E1AE6DB7C8EAA3791DCC5F2 /* Pods-CleanUp-Watch Extension-Info.plist */,
+				C99C54E524262917B114A1A71EB2B30B /* Pods-CleanUp-Watch Extension-umbrella.h */,
+				A763D1A57D229217AF72ABD82635152A /* Pods-CleanUp-Watch Extension.debug.xcconfig */,
+				CEB2DCC0D44727805A35B5CE58868474 /* Pods-CleanUp-Watch Extension.release.xcconfig */,
+			);
+			name = "Pods-CleanUp-Watch Extension";
+			path = "Target Support Files/Pods-CleanUp-Watch Extension";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1E02EB737F98B5603A1E1116B442E692 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				878F0474D84D790D1268F9AC54B51E53 /* MapCache-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43DEE20F884DDF542B9A2B86193181D6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				404F1BF804879BBAE48047632FA123D9 /* Pods-CleanUp-Watch Extension-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		461F500894259B89FDEF5E6E20EE1310 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F45DBF7A6DCFF011CE4B7B0AE27B4C50 /* CoreGPX-iOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		663DCA53254EDF4B3ED3347F84E9A71D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D886383583C44F6F1B41C570CCF29314 /* CoreGPX-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE0BB2F96CE031BD4555525339DB4F3D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D1D5D02E1436725A16C0DC24BDA8478 /* Pods-CleanUp-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3241FE031999DDB2AA98D6A3F4FDC7CF /* Pods-CleanUp-Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA1006B41542895ED4D5802F267E090 /* Build configuration list for PBXNativeTarget "Pods-CleanUp-Watch Extension" */;
+			buildPhases = (
+				43DEE20F884DDF542B9A2B86193181D6 /* Headers */,
+				B8D29F513F84B23630C8931BCB9D0FB2 /* Sources */,
+				07553230475381294D5C8D5D64D62AC8 /* Frameworks */,
+				AC5BACBD94F412B7410E83E15EEA4EFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B353C46D9F026DF575265A8A535C15DD /* PBXTargetDependency */,
+			);
+			name = "Pods-CleanUp-Watch Extension";
+			productName = "Pods-CleanUp-Watch Extension";
+			productReference = 5C16440F693BED999C5F7C7D73F5C2F1 /* Pods_CleanUp_Watch_Extension.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		39C3BEF7DBD1C22A0C960118EFC8BD80 /* Pods-CleanUp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 10A886844F0F53C0763CE019D7357EB9 /* Build configuration list for PBXNativeTarget "Pods-CleanUp" */;
+			buildPhases = (
+				AE0BB2F96CE031BD4555525339DB4F3D /* Headers */,
+				83BBF06F6C08C51EF8AE5F08F8231902 /* Sources */,
+				D893BF67F52532A7F3E06115A4A3FB47 /* Frameworks */,
+				BA1C3979A3B1C20FFF2BD1A7D6CAD371 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				568096551FE0F61179DC283C521E3131 /* PBXTargetDependency */,
+				D37121EFDC224DEA74513B8FEBB74A70 /* PBXTargetDependency */,
+			);
+			name = "Pods-CleanUp";
+			productName = "Pods-CleanUp";
+			productReference = 7154314C55E326A5A2D0DE8AD107DC30 /* Pods_CleanUp.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3F3F1AB09D6852392F8574A567B748F3 /* CoreGPX-iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8FC92E9CD954C9775941C6152EC97CC /* Build configuration list for PBXNativeTarget "CoreGPX-iOS" */;
+			buildPhases = (
+				461F500894259B89FDEF5E6E20EE1310 /* Headers */,
+				3E464638D296D99B272605527D306B46 /* Sources */,
+				2175E110B6C829CE3CEE0B995EE800B4 /* Frameworks */,
+				3D48260C2055A748622858E5CB2FE226 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreGPX-iOS";
+			productName = "CoreGPX-iOS";
+			productReference = E9C30547DF968C73398DDA33A4BBDFB3 /* CoreGPX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		52F3F24B8D3936CDB41CBC3C1FED4E8C /* CoreGPX-watchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D550DFCF11634DAA8AF20457BCFC68CC /* Build configuration list for PBXNativeTarget "CoreGPX-watchOS" */;
+			buildPhases = (
+				663DCA53254EDF4B3ED3347F84E9A71D /* Headers */,
+				2C36105E486BBD79D5DAC01BCB9AD42A /* Sources */,
+				1FD841B0289056364E0C07587208F856 /* Frameworks */,
+				E4E842F9C252F380B92F4555CF8BE07F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoreGPX-watchOS";
+			productName = "CoreGPX-watchOS";
+			productReference = 73E097AB8D67061734EC7A63ABBF2E20 /* CoreGPX.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D26394E74B3D99783EE42885C06E286A /* MapCache */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 243B31D03F19B8A1D875D1E7FB12AEE3 /* Build configuration list for PBXNativeTarget "MapCache" */;
+			buildPhases = (
+				1E02EB737F98B5603A1E1116B442E692 /* Headers */,
+				988C86E7562B7A1291127DA948764063 /* Sources */,
+				3EA64315E5EB0CD69C8F937119DDBC02 /* Frameworks */,
+				63E180BFD732553B8F2FB89A230C7AC5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MapCache;
+			productName = MapCache;
+			productReference = 115747451E3769DDB80BB07379405375 /* MapCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = CCD7A084CD13CADADF8800D15D3240F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3F3F1AB09D6852392F8574A567B748F3 /* CoreGPX-iOS */,
+				52F3F24B8D3936CDB41CBC3C1FED4E8C /* CoreGPX-watchOS */,
+				D26394E74B3D99783EE42885C06E286A /* MapCache */,
+				39C3BEF7DBD1C22A0C960118EFC8BD80 /* Pods-CleanUp */,
+				3241FE031999DDB2AA98D6A3F4FDC7CF /* Pods-CleanUp-Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3D48260C2055A748622858E5CB2FE226 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63E180BFD732553B8F2FB89A230C7AC5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC5BACBD94F412B7410E83E15EEA4EFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA1C3979A3B1C20FFF2BD1A7D6CAD371 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E4E842F9C252F380B92F4555CF8BE07F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C36105E486BBD79D5DAC01BCB9AD42A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93199F0F4FB898944E90FBE2D646A8B8 /* Converters.swift in Sources */,
+				4D450D3E6ACEC24C83211B1803A45014 /* CoreGPX-watchOS-dummy.m in Sources */,
+				1D35F909F90E1465EFD24429A05A6CE8 /* DateTimeParsers.swift in Sources */,
+				F171B4327F4A4E4DF104E45DCE9107C9 /* GPXAuthor.swift in Sources */,
+				4D765B603EA6B4F813C4BBB4610F4FC4 /* GPXBounds.swift in Sources */,
+				48E4B2E6B34EF597BE4D5765E2DC4D20 /* GPXCompression.swift in Sources */,
+				70F8A650FA8E5E76DCBB2867D2AD0C29 /* GPXCopyright.swift in Sources */,
+				E4DC9E1BAA8E22B38734C9A3FEA6D8A0 /* GPXElement.swift in Sources */,
+				26F3D8E9EB1A11ABD5069EA272BF65BB /* GPXEmail.swift in Sources */,
+				366641B6A8116DD407905F69FDFD0E30 /* GPXError.swift in Sources */,
+				9A81DC9244629C91DB13BB7C7997249C /* GPXExtensions.swift in Sources */,
+				9AE91998A71CA56A71216BBC5EBD313C /* GPXExtensionsElement.swift in Sources */,
+				7385A7A9C539517DFB0F12F2B3547E75 /* GPXFix.swift in Sources */,
+				8EC3E13BC610182C4053E2606068DCBB /* GPXLink.swift in Sources */,
+				9A3B79DD4BF22A27FF054545D83F6C88 /* GPXMetadata.swift in Sources */,
+				9FDACF3C1FB1F0C36E5E46B93CB36A40 /* GPXParser.swift in Sources */,
+				675F5E76BE806CD8B872C3E72467F023 /* GPXPerson.swift in Sources */,
+				E96095BC9712053C48D1A0A591F779FC /* GPXPoint.swift in Sources */,
+				FF2104F6BEB994B634C292136B1C8CE0 /* GPXPointSegment.swift in Sources */,
+				B815917FC803F08BFC9C4E49CFD91224 /* GPXRawElement.swift in Sources */,
+				1E8E6A316A70E09AA0AE068C4052FA79 /* GPXRoot.swift in Sources */,
+				4C61307CE33BB9456D8A930B2BE17544 /* GPXRoute.swift in Sources */,
+				B6526A95C424F5A65C08CACC002D8A37 /* GPXRoutePoint.swift in Sources */,
+				614C683D2065A67DCEE0ABECFFD326E9 /* GPXTrack.swift in Sources */,
+				DBBACAF78429235067AF07A1507C7878 /* GPXTrackPoint.swift in Sources */,
+				291D8D068B57BA580A372D8F1BEECA31 /* GPXTrackSegment.swift in Sources */,
+				5CAA71A601AA0977B9A5E7F5358E6C00 /* GPXWaypoint.swift in Sources */,
+				27FE38F0F44FBBA1286CBE21FF533D70 /* NSMutableString+XML.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E464638D296D99B272605527D306B46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E6A361920A4E45D7BC804CAAF60629F /* Converters.swift in Sources */,
+				EB1EA9E9C1527976254F7754F283DC37 /* CoreGPX-iOS-dummy.m in Sources */,
+				95389DE0EFA4E02CC683ECF5231D3107 /* DateTimeParsers.swift in Sources */,
+				099C6D69BC1EF5F0B6A4B46D820F6A9D /* GPXAuthor.swift in Sources */,
+				262D20D5AAA59F77AF61EDC84409E123 /* GPXBounds.swift in Sources */,
+				C84EA6ED9CA6ED96237F2F9CE67E3942 /* GPXCompression.swift in Sources */,
+				63ECD307D351F4CFD8B9C27E6568E134 /* GPXCopyright.swift in Sources */,
+				EDD1E519720F0A6116A01DD5374AA728 /* GPXElement.swift in Sources */,
+				9A11B3B82D0AA316137499D8F6B052AE /* GPXEmail.swift in Sources */,
+				B29A9883DA64ED9238F7974280D61B3C /* GPXError.swift in Sources */,
+				8F8461C8DB0F8DCBDF0BF57DF945F17E /* GPXExtensions.swift in Sources */,
+				745E764D87694218C63E532135E952A5 /* GPXExtensionsElement.swift in Sources */,
+				F0A6FED3E288C641B9CB85D6853C2CCE /* GPXFix.swift in Sources */,
+				C7E35C15B68E52C31ACCAAF2A95D3A70 /* GPXLink.swift in Sources */,
+				DF1A8E06C319DAD140782AE994B77BF4 /* GPXMetadata.swift in Sources */,
+				29FF8240E736EF4B83F25CE89F5C83A4 /* GPXParser.swift in Sources */,
+				EE13CCD92558CD76C26D1382426477AB /* GPXPerson.swift in Sources */,
+				E7D51833ABCFA88043E1024B4710D4C4 /* GPXPoint.swift in Sources */,
+				334C107F77D02EAE3FAEE75027642846 /* GPXPointSegment.swift in Sources */,
+				CFCF69C6A6F289DF7DF3840784B45840 /* GPXRawElement.swift in Sources */,
+				48549F12FAE4767F7A80B7BED4F95627 /* GPXRoot.swift in Sources */,
+				8B2EB93B33A61F340D5D0F38198887E7 /* GPXRoute.swift in Sources */,
+				0A913D53740CA1F21A2A4BA1B3F6EAFD /* GPXRoutePoint.swift in Sources */,
+				D7374E60D9D1E4EE7994DB7290E0A9BA /* GPXTrack.swift in Sources */,
+				DCC763B0248792D700C75E42 /* CleanUp.xcdatamodeld in Sources */,
+				D46DD9634D6A3632A7056251B6AE22B9 /* GPXTrackPoint.swift in Sources */,
+				61712DB9A3C9B0404788DEF0CDFEC6C2 /* GPXTrackSegment.swift in Sources */,
+				2B95E69240AE1C4B707285B98D04C3F1 /* GPXWaypoint.swift in Sources */,
+				8250B4D215F98E7CA8131942F41DA497 /* NSMutableString+XML.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83BBF06F6C08C51EF8AE5F08F8231902 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F74A06199C101D4503A28E707BBDE71 /* Pods-CleanUp-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		988C86E7562B7A1291127DA948764063 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E2D81508D8D80DB99F3A8A244165F00 /* CachedTileOverlay.swift in Sources */,
+				95AD4B7017BBD30A7408B35A054D758C /* DiskCache.swift in Sources */,
+				99F98F80935F5327E3A602AE4538B989 /* FileManager+DiskCache.swift in Sources */,
+				245F1C280C96E219A394F34A549812B6 /* Log.swift in Sources */,
+				D5763373293E932C5E39E0ECDD7817E2 /* MapCache-dummy.m in Sources */,
+				E2D7CA756695D8D6B430C17D9831B792 /* MapCache.swift in Sources */,
+				09E384876EF6B4429D5F842FD0AEB6D2 /* MapCacheConfig.swift in Sources */,
+				7D353EA3E3E4221419EDB623C9518A73 /* MapCacheProtocol.swift in Sources */,
+				B4672BB887DAAC717AC718283CEC8590 /* MD5.swift in Sources */,
+				3B9DD8E0581146ED0D56D013DBDF050C /* MKMapView+MapCache.swift in Sources */,
+				3B80E04855F0A3FACBD1974A8A25D74C /* MKTileOverlayPath+MapCache.swift in Sources */,
+				CA0CEB8B8BF7770D87A3D2047E6279D8 /* RegionDownloader.swift in Sources */,
+				F6262510200AB990D82DA37744C5C284 /* RegionDownloaderDelegate.swift in Sources */,
+				0F4DA559092D4C2B144DCB33B92CEC68 /* ReplaceMe.swift in Sources */,
+				F6B4CDE78BCDAC50CC342741CE20500A /* String+DiskCache.swift in Sources */,
+				1663A9527B6D3C34A3A9C40B6C6B97E3 /* TileCoords.swift in Sources */,
+				17A2706D3466A9BAC139A7B984247F2F /* TileCoordsRegion.swift in Sources */,
+				AF2651F13B56F5D2916FF5A569D357EF /* TileRange.swift in Sources */,
+				554B1B922F5400AA99A6300C161F2252 /* TileRangeIterator.swift in Sources */,
+				212FC03237B03A9FB986CEDB67E81DA4 /* URL+DiskCache.swift in Sources */,
+				BC8258058992A57CCAC74F1EF09850F7 /* ZoomRange.swift in Sources */,
+				7F93B344D032932509A2F80F22E3441E /* ZoomRangeIterator.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8D29F513F84B23630C8931BCB9D0FB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C2971267EB0A45985E7145B8358B9227 /* Pods-CleanUp-Watch Extension-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		568096551FE0F61179DC283C521E3131 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CoreGPX-iOS";
+			target = 3F3F1AB09D6852392F8574A567B748F3 /* CoreGPX-iOS */;
+			targetProxy = AE1B0575C4193A7114B30BF5CDC1427A /* PBXContainerItemProxy */;
+		};
+		B353C46D9F026DF575265A8A535C15DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "CoreGPX-watchOS";
+			target = 52F3F24B8D3936CDB41CBC3C1FED4E8C /* CoreGPX-watchOS */;
+			targetProxy = FA2A4435E0BEB1E12F9FC663851A750A /* PBXContainerItemProxy */;
+		};
+		D37121EFDC224DEA74513B8FEBB74A70 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MapCache;
+			target = D26394E74B3D99783EE42885C06E286A /* MapCache */;
+			targetProxy = 12D460BE59342D5B3D55FEFAF351ED90 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D68F30037DCF56AF4E7725C4481C3D3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 434E65F1F3AA6AC18A81080558FBF789 /* Pods-CleanUp.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanUp/Pods-CleanUp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanUp/Pods-CleanUp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		320D26DF6210C4ACB1E543675F632AE7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4569433ABFF8D059EA11B0EB69DDEC99 /* CoreGPX-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreGPX-iOS/CoreGPX-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreGPX-iOS/CoreGPX-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoreGPX-iOS/CoreGPX-iOS.modulemap";
+				PRODUCT_MODULE_NAME = CoreGPX;
+				PRODUCT_NAME = CoreGPX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47D31B5539BD1CE3B6BAAB64CA419DDC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D44786039B6F85B1995081A859FA249 /* MapCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapCache/MapCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapCache/MapCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MapCache/MapCache.modulemap";
+				PRODUCT_MODULE_NAME = MapCache;
+				PRODUCT_NAME = MapCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4B307D96EF761F5B4AA8943D3CCCB6C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69E0E3B6B7A79B861D5FAB1CFAFC705 /* CoreGPX-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreGPX-watchOS/CoreGPX-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreGPX-watchOS/CoreGPX-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoreGPX-watchOS/CoreGPX-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = CoreGPX;
+				PRODUCT_NAME = CoreGPX;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		4C771D53BEC20A7F3A2447BF15FA5607 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		679FFD45E233D6E733EC034C1CB7EFB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 116B7E7BE9ECB8F9D4A0844600A14D44 /* Pods-CleanUp.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanUp/Pods-CleanUp-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanUp/Pods-CleanUp.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74F40899471656487E066FD7248C2E0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CEB2DCC0D44727805A35B5CE58868474 /* Pods-CleanUp-Watch Extension.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanUp-Watch Extension/Pods-CleanUp-Watch Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanUp-Watch Extension/Pods-CleanUp-Watch Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		90DB8E77A5FC8190C757FC750D518F67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4569433ABFF8D059EA11B0EB69DDEC99 /* CoreGPX-iOS.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreGPX-iOS/CoreGPX-iOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreGPX-iOS/CoreGPX-iOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoreGPX-iOS/CoreGPX-iOS.modulemap";
+				PRODUCT_MODULE_NAME = CoreGPX;
+				PRODUCT_NAME = CoreGPX;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A218C66EC608FF012C1CBA1B48A66AE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A69E0E3B6B7A79B861D5FAB1CFAFC705 /* CoreGPX-watchOS.xcconfig */;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/CoreGPX-watchOS/CoreGPX-watchOS-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/CoreGPX-watchOS/CoreGPX-watchOS-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/CoreGPX-watchOS/CoreGPX-watchOS.modulemap";
+				PRODUCT_MODULE_NAME = CoreGPX;
+				PRODUCT_NAME = CoreGPX;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		C2296CF33180F00C4710670250768305 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		CEBD4469519E5DDDEC13E7A9365F7512 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A763D1A57D229217AF72ABD82635152A /* Pods-CleanUp-Watch Extension.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CleanUp-Watch Extension/Pods-CleanUp-Watch Extension-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CleanUp-Watch Extension/Pods-CleanUp-Watch Extension.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		F0871D787CFB2C72B27B7541C17E1CA7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D44786039B6F85B1995081A859FA249 /* MapCache.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MapCache/MapCache-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MapCache/MapCache-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MapCache/MapCache.modulemap";
+				PRODUCT_MODULE_NAME = MapCache;
+				PRODUCT_NAME = MapCache;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		10A886844F0F53C0763CE019D7357EB9 /* Build configuration list for PBXNativeTarget "Pods-CleanUp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				679FFD45E233D6E733EC034C1CB7EFB1 /* Debug */,
+				2D68F30037DCF56AF4E7725C4481C3D3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		243B31D03F19B8A1D875D1E7FB12AEE3 /* Build configuration list for PBXNativeTarget "MapCache" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47D31B5539BD1CE3B6BAAB64CA419DDC /* Debug */,
+				F0871D787CFB2C72B27B7541C17E1CA7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2296CF33180F00C4710670250768305 /* Debug */,
+				4C771D53BEC20A7F3A2447BF15FA5607 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA1006B41542895ED4D5802F267E090 /* Build configuration list for PBXNativeTarget "Pods-CleanUp-Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEBD4469519E5DDDEC13E7A9365F7512 /* Debug */,
+				74F40899471656487E066FD7248C2E0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D550DFCF11634DAA8AF20457BCFC68CC /* Build configuration list for PBXNativeTarget "CoreGPX-watchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B307D96EF761F5B4AA8943D3CCCB6C5 /* Debug */,
+				A218C66EC608FF012C1CBA1B48A66AE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8FC92E9CD954C9775941C6152EC97CC /* Build configuration list for PBXNativeTarget "CoreGPX-iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				90DB8E77A5FC8190C757FC750D518F67 /* Debug */,
+				320D26DF6210C4ACB1E543675F632AE7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DCC763AE248792D700C75E42 /* CleanUp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DCC763AF248792D700C75E42 /* CleanUp.xcdatamodel */,
+			);
+			currentVersion = DCC763AF248792D700C75E42 /* CleanUp.xcdatamodel */;
+			path = CleanUp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

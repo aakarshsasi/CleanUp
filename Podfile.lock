@@ -1,0 +1,20 @@
+PODS:
+  - CoreGPX (0.8.0)
+  - MapCache (0.6.0)
+
+DEPENDENCIES:
+  - CoreGPX
+  - MapCache (~> 0.6.0)
+
+SPEC REPOS:
+  trunk:
+    - CoreGPX
+    - MapCache
+
+SPEC CHECKSUMS:
+  CoreGPX: 7d1cd0caafc0037dd19d6e2070b427f9d386dbd9
+  MapCache: 8afa98ddc3539a384ba75b019284cded95aaccab
+
+PODFILE CHECKSUM: b9cb95fe90aafa9a1b7ddd2b5019ad008e68a60c
+
+COCOAPODS: 1.8.4
